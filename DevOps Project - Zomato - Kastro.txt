@@ -80,8 +80,23 @@ sudo chmod 777 /var/run/docker.sock
 9. Install SonarQube using Docker
 $ docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 $ docker ps (You can see SonarQube container)
+admin/admin (sonarqube)
 
 <Follow the process as explained in the video>
+
+jenkins plugin
+Pipeline: Stage View
+Eclipse Temurin installer
+docker
+docker commons
+docker pipeline
+docker-build-setup
+Email Extension Template
+OWASP Dependency-Check
+nodejs
+Prometheus metrics
+
+squ_ca7117e1a68ce26384b0fb8da12f1bb1170b23ef
 
 10. Installation of Plugins in Jenkins
 Install below plugins:
@@ -92,6 +107,17 @@ Install below plugins:
 
 11.1. Tools Configuration in Jenkins
 <Follow the process as explained in the video>
+
+jdk17, install automatically checkbox, install from adoptium.ent - jdk 17.0.8.1+
+SonarQube Scanner installations
+sonar-scanner - install automatically - 6.2.1.4610 
+NodeJS installations
+node23 - install automatically - nodejs 23.1.0
+Dependency-Check installations
+DP-Check - install automatically - 11.1.0
+Docker installations
+docker - install automatically - latest
+
 
 11.2. Configuration of SonarQube Token in Jenkins
 <Follow the process as explained in the video>
