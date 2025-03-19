@@ -84,6 +84,10 @@ admin/admin (sonarqube)
 
 <Follow the process as explained in the video>
 
+squ_ca7117e1a68ce26384b0fb8da12f1bb1170b23ef
+
+10. Installation of Plugins in Jenkins
+Install below plugins:
 jenkins plugin
 Pipeline: Stage View
 Eclipse Temurin installer
@@ -95,12 +99,6 @@ Email Extension Template
 OWASP Dependency-Check
 nodejs
 Prometheus metrics
-
-squ_ca7117e1a68ce26384b0fb8da12f1bb1170b23ef
-
-10. Installation of Plugins in Jenkins
-Install below plugins:
-<Follow the process as explained in the video>
 
 11. SonarQube configuration in Jenkins
 <Follow the process as explained in the video>
@@ -120,14 +118,19 @@ docker - install automatically - latest
 
 
 11.2. Configuration of SonarQube Token in Jenkins
-<Follow the process as explained in the video>
+Sonar-token - secret text
+
 
 Lets create another credentials for DockerHub. This is being done because, as soon as the docker image is created, it should get pushed to dockerhub. 
 <Follow the process as explained in the video>
+username and password for docker
 
 11.3 Configuration of Email notification in Jenkins
 As soon as the build happens, i need to get an email notification to do that we have to configure our email.
 <Follow the process as explained in the video>
+
+lftlcshspysdjsrz
+lftl cshs pysd jsrz
 
 
 12. System Configuration in Jenkins
